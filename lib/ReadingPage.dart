@@ -5,7 +5,7 @@ class ReadingPage extends StatefulWidget {
   final String imageAddress;
   final String bookname;
   final String authorname;
-  ReadingPage({this.authorname, this.bookname, this.imageAddress});
+  ReadingPage({this.authorname,this.bookname,this.imageAddress});
   @override
   _ReadingPageState createState() => _ReadingPageState();
 }

@@ -67,9 +67,9 @@ class _DetailsPageState extends State<DetailsPage> {
                         width: constraints.maxWidth * 0.54,
                       ),
                       Container(
-                        padding: EdgeInsets.all(constraints.maxHeight * 0.18),
+                        padding: EdgeInsets.all(constraints.maxHeight * 0.15),
                         //color: Colors.black,
-                        height: constraints.maxHeight * 0.8,
+                        height: constraints.maxHeight * 0.9,
                         width: constraints.maxWidth * 0.15,
                         child: FittedBox(
                             child: Icon(
@@ -94,7 +94,7 @@ class _DetailsPageState extends State<DetailsPage> {
               ),
             ),
             Hero(
-              tag: Text("Haha"),
+              tag: Text(" "),
               child: Container(
                 height: size.height * 0.4,
                 width: size.width * 0.55,
@@ -357,7 +357,7 @@ class _DetailsPageState extends State<DetailsPage> {
               width: size.width,
               child: Center(
                   child: Text(
-                "The Arsonist, by the acclaimed author of The Tall Man, is the story of that man, the fire he lit, and the people who were killed. On the scorching February day in 2009 that became known as Black Saturday, a man lit two fires in Victoria's Latrobe Valley, then sat on the roof of his house to watch the inferno.",
+                "“Wings of Fire: An Autobiography of Abdul Kalam”  is written by Dr. APJ Abdul Kalam and Arun Tiwari. This book is an autobiography of Dr. APJ Abdul Kalam, former president of India. This story sheds light on the journey of a young boy from Rameswaram to become a renowned scientist. It reflects how simple living, dedication, strong will and hard work led to success. It also shows how cultural unity impacts the lives of individuals.",
                 overflow: TextOverflow.fade,
                 style: GoogleFonts.lato(
                     textStyle: TextStyle(
